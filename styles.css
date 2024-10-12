@@ -1,0 +1,107 @@
+.hlavny_kontajner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.results {
+  width: 25%;
+  padding: 0px;
+  margin: 5px;
+}
+
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  3%;
+  color: #FEF2BF;
+}
+
+.container {
+  /* display: block; */
+  width: 60%;
+  margin-right: 23%;
+  text-align: center;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 230px;
+  width: 230px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.level_up {
+  background-color: #D2FF72
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+
+ /* removing the annoying rectangle */
+ /* https://stackoverflow.com/questions/42216497/
+ remove-blue-box-when-rapidly-clicking-div */
+* {
+  user-select: none;
+}
+
+.checker {
+  height: 100px;
+  width: 300px;
+  background-color: white;
+  margin: auto;
+  border-radius: 10px;
+  opacity: 0%;
+}
+
+.show_correct {
+  background-color: green;
+  opacity: 50%;
+}
+
+.show_wrong {
+  background-color: red;
+  opacity: 50%;
+}
+
+.results {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  color: #FEF2BF;
+}
+
+.neviditelne {
+  opacity: 0;
+}
+
